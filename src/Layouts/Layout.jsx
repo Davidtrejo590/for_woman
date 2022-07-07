@@ -1,5 +1,6 @@
 import { Component } from "react";
 import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
 
 class Layout extends Component{
@@ -19,7 +20,7 @@ class Layout extends Component{
 
                 <div className="row">
                     {/* FOOTER */}
-                    <h1>Footer</h1>
+                    <Footer></Footer>
                 </div>
 
             </div>
